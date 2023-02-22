@@ -1,29 +1,29 @@
-.card-span{
+.card-span {
     font-weight: 900;
-}
-
-body{
+  }
+  
+  body {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 98vw;
-}
-
-#card{
+  }
+  
+  #card {
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
     justify-content: flex-start;
-}
-
-#card img{
-    height: 20vh;
-}
-
-#random{
+  }
+  
+  #card img {
+    height: 25vh
+  }
+  
+  #random {
     margin-left: 10%;
-}
-
-#box{
+  }
+  
+  #box {
     align-self: center;
     height: 30vh;
     width: 40vw;
@@ -32,9 +32,10 @@ body{
     align-items: center;
     border: 1px solid black;
     margin-top: 2%;
-}
-
-button{
+  }
+  
+  button {
     height: 30vh;
-    width: 30vw;
-}
+    width: 60vw;
+    text-align: center;
+  }

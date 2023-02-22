@@ -3,9 +3,10 @@ import { useState } from "react"
 
 const Greetings = ({ lang, children}) => {
 
-    const [ greeting, setGreeting ] = useState('')
+
 
     let greetingSpan = ''
+
 
         switch(lang) {
             case 'de':
@@ -29,7 +30,6 @@ const Greetings = ({ lang, children}) => {
     
         }       
 
-
     return (
         <div id='greeting'>
             <p>{greetingSpan} {children}</p>
@@ -39,7 +39,6 @@ const Greetings = ({ lang, children}) => {
 
 
 export default Greetings
-
 
 
 
